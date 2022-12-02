@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <input type="text" class="result__input" />
+      </div>
+      <div class="number--operator">
+        <div class="operator-1">
+          <p class="opera operator__allClear">AC</p>
+          <p class="opera operator__clear">&leftarrow;</p>
+          <p class="opera num operator__squreRoot" data-num="&Sqrt;">&Sqrt;</p>
+          <p class="opera num operator__division" data-num="/">/</p>
+        </div>
+        <div class="numbers">
+          <div class="number">
+            <div>
+              <p class="num number__one" data-num="1">1</p>
+              <p class="num number__four" data-num="4">4</p>
+              <p class="num number__seven" data-num="7">7</p>
+            </div>
+            <div>
+              <p class="num number__two" data-num="2">2</p>
+              <p class="num number__five" data-num="5">5</p>
+              <p class="num number__eight" data-num="8">8</p>
+            </div>
+            <div>
+              <p class="num number__three" data-num="3">3</p>
+              <p class="num number__six" data-num="6">6</p>
+              <p class="num number__nine" data-num="9">9</p>
+            </div>
+          </div>
+          <div class="operator-2">
+            <p class="opera num operator__mult" data-num="*">*</p>
+            <p class="opera num operator__subs" data-num="-">-</p>
+            <p class="opera num operator__add" data-num="+">+</p>
+          </div>
+        </div>
+        <div class="operator-3">
+          <p class="opera num operator__percentage" data-num="/100">%</p>
+          <p class="opera num operator__zero" data-num="0">0</p>
+          <p class="opera num operator__point" data-num=".">.</p>
+          <p class="opera operator__equal">=</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
